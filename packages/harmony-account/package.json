@@ -1,0 +1,29 @@
+{
+  "name": "@harmony-js/account",
+  "version": "0.1.36",
+  "description": "account and wallet for harmony",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "neeboo@firestack.one",
+  "license": "MIT",
+  "dependencies": {
+    "@harmony-js/core": "0.1.36",
+    "@harmony-js/crypto": "0.1.35",
+    "@harmony-js/network": "0.1.35",
+    "@harmony-js/staking": "0.1.36",
+    "@harmony-js/transaction": "0.1.35",
+    "@harmony-js/utils": "0.1.35"
+  },
+  "gitHead": "27bce049c8d99498f464ce2db4fc39e4000a5420"
+}
